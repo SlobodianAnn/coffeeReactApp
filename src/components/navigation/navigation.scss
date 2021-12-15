@@ -1,0 +1,31 @@
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.app__nav {
+  max-width: 280px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    li {
+      position: relative;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 12px;
+  }
+
+  .logo__nav {
+    position: relative;
+    top: 10px;
+  }
+}
