@@ -1,5 +1,5 @@
 .nav-wrapper {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -22,6 +22,12 @@
     text-decoration: none;
     color: #ffff;
     font-size: 12px;
+    transition: all 0.3s ease-out;
+    ;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 
   .logo__nav {

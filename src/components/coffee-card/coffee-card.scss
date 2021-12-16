@@ -1,0 +1,27 @@
+.coffee__card {
+  max-width: 220px;
+  padding: 20px 35px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.coffee-card__img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.coffee-card__title {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: left;
+}
+
+.coffee-card__price {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-align: right;
+}

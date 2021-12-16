@@ -3,9 +3,9 @@ import beanLine from '../../../img/beans-logo.svg';
 
 const FirstScreen = () => {
   return (
-    <div className="firstScreen-wrap">
+    <section className="first-screen__section">
       <h1>Everything You Love About Coffee </h1>
-      <img className="bean-devide" src={beanLine} alt="" />
+      <img className="bean-devide" src={beanLine} alt="beans" />
       <div className="headline">
         We makes every day full of energy and taste <br />
         Want to try our beans?
@@ -13,7 +13,7 @@ const FirstScreen = () => {
       <a className="more__btn" href="/">
         More
       </a>
-    </div>
+    </section>
   );
 };
 

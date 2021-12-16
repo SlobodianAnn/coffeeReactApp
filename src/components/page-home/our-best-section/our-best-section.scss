@@ -1,0 +1,20 @@
+.ourBest__section {
+  background-image: url('../../../img/ourcoffee-background.jpg');
+  background-size: cover;
+  min-height: 495px;
+  padding: 80px 15px;
+  text-align: center;
+}
+
+.ourBest__h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.ourBest__cards {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-.firstScreen-wrap {
+.first-screen__section {
   text-align: center;
   min-height: 640px;
   background-image: url('../../../img/first-screen-img.jpg');
@@ -39,5 +39,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 18px;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      background-color: #ffff;
+      color: black;
+    }
   }
 }

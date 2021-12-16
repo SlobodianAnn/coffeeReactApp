@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <Router>
       <div>
-        <div className="nav-wrapper">
+        <header className="nav-wrapper">
           <div className="container">
             <nav className="app__nav">
               <ul>
@@ -26,7 +26,7 @@ const Navigation = () => {
               </ul>
             </nav>
           </div>
-        </div>
+        </header>
 
         {/* A <Switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
