@@ -1,5 +1,5 @@
 import './about-us-section.scss';
-import beanLine from '../../../img/beans-logo.svg';
+import beanLine from '../../../img/beans-line-black.png';
 
 const AboutUsSection = () => {
   return (

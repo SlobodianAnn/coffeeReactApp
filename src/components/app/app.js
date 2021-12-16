@@ -1,8 +1,9 @@
 import './app.css';
 import React from 'react';
-import { Component } from 'react';
+import { Component, Fragment } from 'react';
 
 import Navigation from '../navigation/navigation';
+import Footer from '../footer/footer';
 
 class App extends Component {
   constructor(props) {
@@ -32,7 +33,12 @@ class App extends Component {
   }
   render() {
     const { data } = this.state;
-    return <Navigation data={data}></Navigation>;
+    return (
+      <Fragment>
+        <Navigation data={data}></Navigation>
+        <Footer />
+      </Fragment>
+    );
   }
 }
 

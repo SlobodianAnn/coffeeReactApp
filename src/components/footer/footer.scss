@@ -1,0 +1,41 @@
+.app__footer-nav {
+  max-width: 280px;
+  margin: 0 auto;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    li {
+      position: relative;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    transition: all 0.3s ease-out;
+    ;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .logo__nav {
+    position: relative;
+    top: 10px;
+  }
+}
+
+.beansLine__footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .container {
+  text-align: center;
+}
