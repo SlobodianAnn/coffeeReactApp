@@ -6,8 +6,13 @@
   background: rgba(255, 255, 255, 0.65);
 }
 
-.coffee-card__img {
+.coffee-card__img-wrap {
+  min-height: 130px;
   max-width: 150px;
+  width: 100%;
+}
+
+.coffee-card__img {
   width: 100%;
 }
 

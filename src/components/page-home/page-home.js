@@ -3,12 +3,12 @@ import FirstScreen from './first-screen-section/first-screen';
 import AboutUsSection from './about-us-section/about-us-section';
 import OurBestSection from './our-best-section/our-best-section';
 
-const Home = () => {
+const Home = ({ data }) => {
   return (
     <main className="homePage">
       <FirstScreen />
       <AboutUsSection />
-      <OurBestSection />
+      <OurBestSection data={data} />
     </main>
   );
 };

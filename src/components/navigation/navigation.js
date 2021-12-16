@@ -5,7 +5,7 @@ import AboutBeans from '../page-our-coffee/page-our-coffee';
 import AboutGoods from '../page-for-pleasure/page-for-pleasure';
 import logo from '../../img/header-beans-logo.png';
 
-const Navigation = () => {
+const Navigation = ({ data }) => {
   return (
     <Router>
       <div>
@@ -38,7 +38,7 @@ const Navigation = () => {
             <AboutGoods />
           </Route>
           <Route path="/">
-            <Home />
+            <Home data={data} />
           </Route>
         </Switch>
       </div>

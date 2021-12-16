@@ -1,12 +1,13 @@
 import './coffee-card.scss';
-import cardImg from '../../img/solimo-card.png';
 
-const CoffeeCard = () => {
+const CoffeeCard = ({ data }) => {
   return (
     <div className="coffee__card">
-      <img className="coffee-card__img" src={cardImg} alt="coffee" />
-      <div className="coffee-card__title">Solimo Coffee Beans 2 kg</div>
-      <div className="coffee-card__price">10.73$</div>
+      <div className="coffee-card__img-wrap">
+        <img className="coffee-card__img" src={data.img} alt="coffee" />
+      </div>
+      <div className="coffee-card__title">{data.name}</div>
+      <div className="coffee-card__price">{data.price}</div>
     </div>
   );
 };

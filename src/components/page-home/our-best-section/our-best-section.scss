@@ -12,9 +12,12 @@
 }
 
 .ourBest__cards {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
 }
