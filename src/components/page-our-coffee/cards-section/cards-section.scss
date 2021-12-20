@@ -1,0 +1,33 @@
+.cards__wrapper {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cards__section {
+  padding: 50px 0;
+
+  .coffee__card {
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.search-items-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.search-wrapper {
+  flex-grow: 0.5;
+}

@@ -1,0 +1,48 @@
+.app__footer-nav {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.app__footer-nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.app__footer-nav ul li {
+  position: relative;
+}
+
+.app__footer-nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.app__footer-nav a:hover {
+  opacity: 0.5;
+}
+
+.app__footer-nav .logo__nav {
+  position: relative;
+  top: 10px;
+}
+
+.beansLine__footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .container {
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

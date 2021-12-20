@@ -1,0 +1,29 @@
+.info__section {
+  padding: 50px 15px;
+
+  .info__container {
+    display: flex;
+    max-width: 800px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
+
+.info__txt-wrap {
+  text-align: center;
+  max-width: 340px;
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .beansLine {
+    margin-bottom: 15px;
+  }
+}
+
+.info__txt {
+  font-size: 14px;
+  ;
+}

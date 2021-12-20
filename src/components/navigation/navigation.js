@@ -5,7 +5,7 @@ import AboutBeans from '../page-our-coffee/page-our-coffee';
 import AboutGoods from '../page-for-pleasure/page-for-pleasure';
 import logo from '../../img/header-beans-logo.png';
 
-const Navigation = ({ data }) => {
+const Navigation = ({ data, onUpdateFilter, onUpdateSearch }) => {
   return (
     <Router>
       <div>
@@ -32,10 +32,14 @@ const Navigation = ({ data }) => {
           renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
-            <AboutBeans />
+            <AboutBeans
+              onUpdateSearch={onUpdateSearch}
+              onUpdateFilter={onUpdateFilter}
+              data={data}
+            />
           </Route>
           <Route path="/users">
-            <AboutGoods />
+            <AboutGoods data={data} />
           </Route>
           <Route path="/">
             <Home data={data} />

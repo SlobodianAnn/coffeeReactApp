@@ -1,0 +1,66 @@
+.first-screen__section {
+  text-align: center;
+  min-height: 640px;
+  background-image: url("../../../img/first-screen-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first-screen__section h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #ffff;
+  margin-bottom: 15px;
+}
+
+.first-screen__section .headline {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffff;
+}
+
+.first-screen__section .bean-devide {
+  margin-bottom: 15px;
+}
+
+.first-screen__section .more__btn {
+  width: 120px;
+  height: 30px;
+  text-decoration: none;
+  color: #ffff;
+  border: 1px solid #ffff;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 18px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.first-screen__section .more__btn:hover {
+  background-color: #ffff;
+  color: black;
+}
+/*# sourceMappingURL=first-screen.css.map */

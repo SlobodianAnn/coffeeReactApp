@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EAAE,qCAAqC;EACvD,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAMpB;;AAdD,AAUE,kBAVgB,CAUhB,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "headline-section.scss"
+    ],
+    "names": [],
+    "file": "headline-section.css"
+}

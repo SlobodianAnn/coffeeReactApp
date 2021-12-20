@@ -1,0 +1,22 @@
+.headline__section {
+  background-image: url("../../../img/our-coffee-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 260px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headline__section h2 {
+  font-size: 40px;
+  color: #fff;
+}
+/*# sourceMappingURL=headline-section.css.map */

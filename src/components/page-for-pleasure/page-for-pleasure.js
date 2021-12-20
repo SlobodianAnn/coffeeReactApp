@@ -1,6 +1,6 @@
 import './page-for-pleasure.css';
 
-const AboutGoods = () => {
+const AboutGoods = ({ data }) => {
   return <h2>For your pleasure</h2>;
 };
 
