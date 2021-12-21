@@ -3,10 +3,28 @@ import CoffeeCard from '../../coffee-card/coffee-card';
 import Search from '../search/search';
 import Filter from '../filter/filter';
 
-const CardsSection = ({ data, onUpdateSearch, onUpdateFilter }) => {
+const CardsSection = ({
+  data,
+  onUpdateSearch,
+  onUpdateFilter,
+  handleDescriptionBlock,
+  saveDataOnClick,
+}) => {
+  const onClickCard = (currentData) => {
+    saveDataOnClick(currentData);
+  };
+
   const elements = data.map((item) => {
     const { id, ...itemProps } = item;
-    return <CoffeeCard key={id} data={itemProps} includeCountry="true" />;
+    return (
+      <CoffeeCard
+        handleDescriptionBlock={handleDescriptionBlock}
+        key={id}
+        data={itemProps}
+        includeCountry="true"
+        onClickCard={onClickCard}
+      />
+    );
   });
 
   return (

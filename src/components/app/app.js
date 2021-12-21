@@ -16,6 +16,8 @@ class App extends Component {
           img: '/img/solimo-card.png',
           id: 'solimo1',
           country: 'Brazil',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         },
         {
           name: 'Presto Coffee Beans 1 kg',
@@ -23,6 +25,8 @@ class App extends Component {
           img: '/img/prestro-card.png',
           id: 'presto2',
           country: 'Kenya',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         },
         {
           name: 'AROMISTICO Coffee 1 kg',
@@ -30,6 +34,8 @@ class App extends Component {
           img: '/img/aromistico-card.png',
           id: 'AROMISTICO3',
           country: 'Columbia',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         },
         {
           name: 'Solimo Coffee Beans 2 kg',
@@ -37,6 +43,8 @@ class App extends Component {
           img: '/img/solimo-card.png',
           id: 'solimo4',
           country: 'Brazil',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         },
         {
           name: 'Presto Coffee Beans 1 kg',
@@ -44,6 +52,8 @@ class App extends Component {
           img: '/img/prestro-card.png',
           id: 'presto5',
           country: 'Kenya',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         },
         {
           name: 'AROMISTICO Coffee 1 kg',
@@ -51,6 +61,8 @@ class App extends Component {
           img: '/img/aromistico-card.png',
           id: 'ijAROMISTICO674',
           country: 'Columbia',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
         },
       ],
       filter: '',
