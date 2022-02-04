@@ -5,7 +5,7 @@ const OurBestSection = ({ data }) => {
   const cutArray = data.slice(0, 3);
   const elements = cutArray.map((item) => {
     const { id, ...itemProps } = item;
-    return <CoffeeCard key={id} data={itemProps} includeCountry="false" />;
+    return <a className='card-wrap' href='/about/' key={id}> <CoffeeCard  data={itemProps} includeCountry="false" /></a>;
   });
   return (
     <section className="ourBest__section">

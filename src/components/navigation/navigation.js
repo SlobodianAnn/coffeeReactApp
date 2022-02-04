@@ -21,7 +21,7 @@ const Navigation = ({ data, onUpdateFilter, onUpdateSearch }) => {
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/users">Users</Link>
+                  <Link to="/">Users</Link>
                 </li>
               </ul>
             </nav>
